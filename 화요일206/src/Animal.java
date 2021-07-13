@@ -4,6 +4,7 @@ public class Animal {
 	String species; //종
 	String name; 	//이름
 	int age;		//나이
+	int a;
 	
 	//기본형 생성자
 	Animal(){}
