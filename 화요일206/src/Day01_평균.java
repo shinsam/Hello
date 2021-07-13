@@ -6,7 +6,7 @@ public class Day01_ЦђБе {
 		// TODO Auto-generated method stub
 		int num1, num2, num3;
 		int sum = 0;
-		float avg;
+		float avg=0;
 		
 		Scanner sc = new Scanner(System.in);
 		
