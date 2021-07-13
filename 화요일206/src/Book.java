@@ -8,6 +8,7 @@ public class Book {
 	String name;
 	double price;
 	String author; 
+	int num;
 	
 	//method
 	void printBook() {

@@ -5,7 +5,8 @@
 public class Cat {
 	//생성자---오버로딩-----------------------------------
 	Cat(){
-		count++;				
+		count++;		
+		System.out.println("test");
 	}  //다른 생성자가 없었다면 생략가능 
 	
 	Cat(String name, int age){
