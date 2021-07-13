@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Day02_학과코드 {
+
+	public static void main(String[] args) {
+		
+		int code;
+		
+		Scanner sc = new Scanner(System.in);
+		
+
+	}
+
+}

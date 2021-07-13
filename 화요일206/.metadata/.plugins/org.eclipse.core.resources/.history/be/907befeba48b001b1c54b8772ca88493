@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Day02_학과코드 {
+
+	public static void main(String[] args) {
+		
+		int code;
+		
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			System.out.print("학과입력[종료:0]:");
+			code = sc.nextInt();
+			
+			if(code==1)
+				System.out.println("제어과");
+			else if(code==2)
+				System.out.println("설계과");
+			else if(code==3)
+				System.out.println("우주최강 시스템");
+			else if(code==4)
+				System.out.println("정보통신과");
+			else if(code==0)
+				break;
+			else
+				System.out.println("다시입력해주세요");
+		}
+		System.out.println("Bye~");
+
+	}
+
+}
